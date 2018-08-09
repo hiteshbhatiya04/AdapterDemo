@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hitesh.adapterdemo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/india"
+        android:label="Home Page"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Task11"
+            android:label="Task11 Activity" />
+        <activity
+            android:name=".Task12"
+            android:label="Task12 Activity" />
+        <activity
+            android:name=".ListActivity"
+            android:label="List Activity" />
+        <activity
+            android:name=".GridActivity"
+            android:label="Grid Activity" />
+        <activity
+            android:name=".Task13"
+            android:label="Login Frag" />
+        <activity
+            android:name=".BottomNav"
+            android:label="@string/title_activity_bottom_nav">
+
+        </activity>
+    </application>
+
+</manifest>
